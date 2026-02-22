@@ -44,7 +44,7 @@ async def main():
 
     # Test Weather Server
     weather_response = await agent.ainvoke(
-        {"messages": [{"role": "user", "content": "what is the weather in Dallas, Texas?"}]}
+        {"messages": [{"role": "user", "content": "what is the weather in Indore in Fahrenheit?"}]}
     )
     print("Weather response:", weather_response['messages'][-1].content)
 
