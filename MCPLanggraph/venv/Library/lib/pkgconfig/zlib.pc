@@ -1,0 +1,13 @@
+prefix=C:/Ankit/Practice/AgenticAI/MCPLanggraph/venv/Library
+exec_prefix=C:/Ankit/Practice/AgenticAI/MCPLanggraph/venv/Library
+libdir=C:/Ankit/Practice/AgenticAI/MCPLanggraph/venv/Library/lib
+sharedlibdir=C:/Ankit/Practice/AgenticAI/MCPLanggraph/venv/Library/lib
+includedir=C:/Ankit/Practice/AgenticAI/MCPLanggraph/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
